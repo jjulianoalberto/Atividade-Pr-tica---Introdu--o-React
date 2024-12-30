@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "jsx": "react-jsx" // Suporte para JSX com React
+  },
+  "include": ["src/**/*"], // Inclua os arquivos de código TypeScript
+  "exclude": ["node_modules"] // Exclua dependências externas
+}
